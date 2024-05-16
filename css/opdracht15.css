@@ -1,0 +1,230 @@
+
+/* algemeen opmaak*/
+
+body{background-color: #1976D2;}
+header{background-color: black;
+width:100%;
+height:150px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+text-align: center;
+
+}
+footer{
+    color: #1976D2;
+    font-family: "Roboto", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      padding:10px;
+      background-color: black;
+      width: 100%;
+      height: 30px;
+      text-align: center;
+    }
+
+
+h1{ 
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+color:#1976D2;
+padding: 5px;
+text-align: center;
+}
+
+#navbar{
+margin-left: auto;
+margin-right: auto;
+}
+
+
+ul a{
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+color:white;
+text-decoration: none;
+}
+
+li{
+display: inline-block;
+height: 25px;
+width: 400px;
+padding: 10px;
+text-align: center;
+color:white;
+border-left: 2px #1976D2;
+border-right:  1px #1976D2;
+background-color: #1976D2;
+
+}
+
+li:hover{
+
+background-color: white;
+border-style: none;
+
+}
+li:hover a{
+
+    color: #1976D2;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+/*welkom*/
+#welkomdiv{
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+margin-top: 50px;
+max-width: 1000px;
+min-height: 250px;
+padding: 10px;
+border: none;
+
+}
+#welkom{
+color: white;
+font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding:10px;
+}
+#welkomtitel{
+    color: #1976D2;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+img{
+vertical-align: top;
+float: right;
+
+}
+/*cv*/
+#opleidingstuk{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 1000px;
+    min-height: 250px;
+    padding: 10px;
+    border: none;
+    
+}
+#opleidingen{color: #1976D2;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px;
+}
+#infotabel{
+    color: white;
+    font-family: "Roboto", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      padding:10px;
+}
+
+table{
+border-collapse: collapse;
+width: 800px;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+
+}
+#headertabel{
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    background-color: #1976D2;
+
+
+}
+td{
+    font-family: "roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+/* contact*/
+
+form{
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+input[type="text"],input[type="tel"], input[type="email"], textarea{
+display: block;
+margin: 10px auto;
+width: 600px;
+height: 50px;
+font-family: "Roboto", sans-serif;
+font-size: 20px;
+padding: 5px;
+font-weight: 100;
+}  
+textarea{
+height: 100px;
+padding: 5px 4px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    border-left: 2px #1976D2;
+    border-right:  1px #1976D2;
+    background-color: #1976D2;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+ button:active{
+background-color: white;
+color: #1976D2;
+font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+#contact{
+background-color: black;
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+width: 610px; 
+min-height: 100px;
+padding: 25px;
+
+}
+#contacttitel{
+    color: #1976D2;
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+
+
